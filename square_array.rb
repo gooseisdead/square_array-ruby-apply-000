@@ -4,6 +4,7 @@ def square_array(numbers)
   while counter < numbers.length
     numbers.each do |number|
   new_array.push(number * number)
+end
   counter += 1
   end
   new_array
